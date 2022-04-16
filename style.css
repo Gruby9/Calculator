@@ -1,0 +1,52 @@
+html {
+    background-color: dimgray;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.body {
+    height: 500px;
+    width: 400px;
+    border: 3px solid black;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    width: auto;
+    justify-content: space-evenly;
+    padding: 10px 0 10px 0;
+}
+
+.screen {
+    height: 25%;
+    width: 100%;
+    background-color: blanchedalmond;
+}
+
+.first.line {
+    height: 40px;
+    width: auto;
+    background-color: cadetblue;
+}
+
+.second.line {
+    height: 60px;
+    width: auto;
+    background-color: cyan;
+}
+
+.button {
+
+}
+
+.btn {
+    height: 70px;
+    width: 50px;
+}
+
+.screen {
+}
