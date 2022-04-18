@@ -8,45 +8,61 @@ body {
 }
 
 .body {
-    height: 500px;
+    height: 650px;
     width: 400px;
     border: 3px solid black;
     padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(252, 113, 194);
+    box-shadow: 0 20px 80px 0 rgb(0, 0, 0, .5),
+                0 8px 8px 0 rgb(0, 0, 0, .8);
+    background-image: url(bling.gif);
+    background-size: 15%;
+    background-blend-mode:lighten;
 }
 
 .row {
     display: flex;
     width: auto;
-    justify-content: space-evenly;
+    height: 70px;
+    justify-content: space-around;
     padding: 10px 0 10px 0;
 }
 
 .screen {
-    height: 25%;
+    height: 150px;
     width: 100%;
-    background-color: blanchedalmond;
+    margin: 10px 0 30px 0;
+    border: 2px solid rgb(114, 114, 114);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(190, 190, 190);
+    
 }
 
 .first.line {
-    height: 40px;
-    width: auto;
-    background-color: cadetblue;
+    height: 50px;
+    width: 400px;
+    font-size: 45px;
+    text-align: right;
 }
 
 .second.line {
-    height: 60px;
-    width: auto;
-    background-color: cyan;
+    height: 90px;
+    width: 400px;
+    font-size: 85px;
+    text-align: right;
 }
 
-.button {
-
-}
-
-.btn {
-    height: 70px;
+.btn, .operation, .button {
+    flex: 1;
+    margin: 5px;
     width: 50px;
-}
-
-.screen {
+    background-color: rgb(250, 193, 250);
+    border-radius: 15px;
+    border-color: violet;
+    font-size: x-large;
+    box-shadow: 5px 5px 5px 0 rgb(0, 0, 0, .5);
 }
